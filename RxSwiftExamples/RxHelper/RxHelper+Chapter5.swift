@@ -19,6 +19,9 @@ extension RxHelper {
         example(title: "filter", action: filter)
         example(title: "skipUntil", action: skipUntil)
         example(title: "take", action: take)
+        example(title: "takeWhileWithIndex", action: takeWhileWithIndex)
+        example(title: "takeUntil", action: takeUntil)
+        example(title: "distinctUntilChanged", action: distinctUntilChanged)
     }
     
     private static func ignore() {
@@ -119,6 +122,48 @@ extension RxHelper {
         
         Observable.of(1, 2, 3, 4, 5, 6)
             .take(3)
+            .subscribe { event in
+                print("\(event)")
+            }
+            .disposed(by: disposeBag)
+    }
+    
+    private static func takeWhileWithIndex() {
+        let disposeBag = DisposeBag()
+        
+        Observable.of(2, 2, 4, 4, 6, 6)
+            .takeWhileWithIndex { integer, index in
+                integer % 2 == 0 && index < 3
+            }
+            .subscribe { event in
+                print("\(event)")
+            }
+            .disposed(by: disposeBag)
+    }
+    
+    private static func takeUntil() {
+        let disposeBag = DisposeBag()
+        
+        let subject = PublishSubject<String>()
+        let trigger = PublishSubject<String>()
+        
+        subject
+            .takeUntil(trigger)
+            .subscribe { event in
+                print("\(event)")
+            }
+            .disposed(by: disposeBag)
+        
+        subject.onNext("1")
+        trigger.onNext("trigger")
+        subject.onNext("2")
+    }
+    
+    private static func distinctUntilChanged() {
+        let disposeBag = DisposeBag()
+        
+        Observable.of("A", "A", "B", "B", "A")
+            .distinctUntilChanged()
             .subscribe { event in
                 print("\(event)")
             }

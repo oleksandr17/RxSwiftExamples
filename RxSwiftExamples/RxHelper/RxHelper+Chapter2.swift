@@ -19,7 +19,8 @@ extension RxHelper {
     }
     
     private static func intro() {
-        // Create observers
+        let disposeBag = DisposeBag()
+        
         let one = 1
         let two = 2
         let three = 3
@@ -29,7 +30,6 @@ extension RxHelper {
         let observable3 = Observable.of(one, two, three)
         let observable4 = Observable.from([one, two, three])
         
-        // Subscribe to 1
         observable1.subscribe(onNext: { (element) in
             print("1) \(element)")
         }, onError: nil,
@@ -38,21 +38,22 @@ extension RxHelper {
         }) {
             print("1) disposed")
         }
+        .disposed(by: disposeBag)
         
-        // Subscribe to 2
         observable2.subscribe{ event in
             print("2) \(event)")
         }
+        .disposed(by: disposeBag)
         
-        // Subscribe to 3
         observable3.subscribe{ event in
             print("3) \(event)")
         }
+        .disposed(by: disposeBag)
         
-        // Subscribe to 4
         observable4.subscribe{ event in
             print("4) \(event)")
         }
+        .disposed(by: disposeBag)
     }
     
     private static func range() {

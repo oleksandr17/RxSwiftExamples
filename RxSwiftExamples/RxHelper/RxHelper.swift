@@ -22,5 +22,6 @@ struct RxHelper {
         runChapter3()
         runChapter5()
         logResourses()
+        exit(0)
     }
 }

@@ -19,26 +19,34 @@ extension RxHelper {
     }
     
     private static func publishSubject() {
+        let disposeBag = DisposeBag()
+        
         let subject = PublishSubject<String>()
         
         subject.onNext("Is anyone listening?")
-        let subscriptionOne = subject
+        subject
             .subscribe { event in
                 print("1) \(event)")
-        }
+            }
+            .disposed(by: disposeBag)
+        
         subject.on(.next("1"))
         subject.onNext("2")
-        let subscriptionTwo = subject
+        
+        subject
             .subscribe { event in
                 print("2) \(event)")
-        }
+            }
+            .disposed(by: disposeBag)
+        
         subject.onNext("3")
         subject.onCompleted()
-        subject.onError(RxError.defaultError)
+        subject.onError(RxError.defaultError) // will never be called
     }
     
     private static func behaviorSubject() {
         let disposeBag = DisposeBag()
+        
         let subject = BehaviorSubject(value: "Initial value")
         subject
             .subscribe { event in
