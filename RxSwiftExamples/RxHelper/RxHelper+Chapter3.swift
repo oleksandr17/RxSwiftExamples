@@ -29,7 +29,6 @@ extension RxHelper {
                 print("1) \(event)")
             }
             .disposed(by: disposeBag)
-        
         subject.on(.next("1"))
         subject.onNext("2")
         
@@ -38,10 +37,16 @@ extension RxHelper {
                 print("2) \(event)")
             }
             .disposed(by: disposeBag)
-        
         subject.onNext("3")
         subject.onCompleted()
         subject.onError(RxError.defaultError) // will never be called
+        
+        subject
+            .subscribe { event in
+                print("3) \(event)")
+            }
+            .disposed(by: disposeBag)
+        subject.onNext("4")
     }
     
     private static func behaviorSubject() {
