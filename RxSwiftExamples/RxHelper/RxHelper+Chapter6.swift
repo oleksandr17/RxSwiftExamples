@@ -121,7 +121,6 @@ extension RxHelper {
                 print("\(event)")
             }
             .disposed(by: disposeBag)
-        
     }
     
     private static func take() {

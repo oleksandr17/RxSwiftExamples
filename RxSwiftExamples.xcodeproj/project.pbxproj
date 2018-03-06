@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */; };
 		11D40EAE2040475700345013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EAD2040475700345013 /* AppDelegate.swift */; };
 		11D40EB52040475700345013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB42040475700345013 /* Assets.xcassets */; };
 		11D40EB82040475700345013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB62040475700345013 /* LaunchScreen.storyboard */; };
@@ -22,6 +23,7 @@
 
 /* Begin PBXFileReference section */
 		07697B4A8143513F8DFBE375 /* Pods-RxSwiftExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.debug.xcconfig"; sourceTree = "<group>"; };
+		1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter7.swift"; sourceTree = "<group>"; };
 		11D40EAA2040475700345013 /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D40EAD2040475700345013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D40EB42040475700345013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				11D40EC02040627B00345013 /* RxHelper+Chapter3.swift */,
 				11D40EC22040627B00345013 /* RxHelper+Chapter5.swift */,
 				11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */,
+				1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */,
 			);
 			path = RxHelper;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */,
 				11D40EC72040627B00345013 /* RxHelper+Utils.swift in Sources */,
 				11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */,
+				1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */,
 				11D40EC62040627B00345013 /* RxHelper+Chapter3.swift in Sources */,
 				11D40EAE2040475700345013 /* AppDelegate.swift in Sources */,
 				11D40ECA2040627B00345013 /* RxHelper.swift in Sources */,
