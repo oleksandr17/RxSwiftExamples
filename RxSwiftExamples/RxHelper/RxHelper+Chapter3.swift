@@ -39,14 +39,14 @@ extension RxHelper {
             .disposed(by: disposeBag)
         subject.onNext("3")
         subject.onCompleted()
-        subject.onError(RxError.defaultError) // will never be called
+        subject.onError(RxError.defaultError) // won't be sent
         
         subject
             .subscribe { event in
                 print("3) \(event)")
             }
             .disposed(by: disposeBag)
-        subject.onNext("4")
+        subject.onNext("4") // won't be sent
     }
     
     private static func behaviorSubject() {
@@ -109,6 +109,6 @@ extension RxHelper {
             }
             .disposed(by: disposeBag)
         
-        variable.value = "2"
+        variable.value = "2" // won't be sent
     }
 }

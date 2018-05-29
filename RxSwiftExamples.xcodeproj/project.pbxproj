@@ -18,6 +18,8 @@
 		11D40ECA2040627B00345013 /* RxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC42040627B00345013 /* RxHelper.swift */; };
 		11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC52040627B00345013 /* RxHelper+Models.swift */; };
 		11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */; };
+		11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */; };
+		11F54B03204EF8C400F72F31 /* RxHelper+Chapter8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */; };
 		961D50498B1D40F4A040F984 /* Pods_RxSwiftExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69DD4A9898F0CA2F495DC9F /* Pods_RxSwiftExamples.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +39,8 @@
 		11D40EC52040627B00345013 /* RxHelper+Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Models.swift"; sourceTree = "<group>"; };
 		11D40ECC204063B500345013 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter6.swift"; sourceTree = "<group>"; };
+		11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+NoChapter.swift"; sourceTree = "<group>"; };
+		11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter8.swift"; sourceTree = "<group>"; };
 		8CB70A27AD8B26F37B963E05 /* Pods-RxSwiftExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.release.xcconfig"; sourceTree = "<group>"; };
 		D69DD4A9898F0CA2F495DC9F /* Pods_RxSwiftExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -103,6 +107,8 @@
 				11D40EC22040627B00345013 /* RxHelper+Chapter5.swift */,
 				11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */,
 				1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */,
+				11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */,
+				11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */,
 			);
 			path = RxHelper;
 			sourceTree = "<group>";
@@ -246,7 +252,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11F54B03204EF8C400F72F31 /* RxHelper+Chapter8.swift in Sources */,
 				11D40EC92040627B00345013 /* RxHelper+Chapter2.swift in Sources */,
+				11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */,
 				11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */,
 				11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */,
 				11D40EC72040627B00345013 /* RxHelper+Utils.swift in Sources */,
