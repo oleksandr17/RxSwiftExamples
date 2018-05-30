@@ -1,5 +1,5 @@
 //
-//  RxHelper+Chapter3.swift
+//  RxHelper+Chapter9.swift
 //  BasicApp
 //
 //  Created by Oleksandr  on 23/02/2018.
@@ -12,6 +12,6 @@ import Photos
 
 extension RxHelper {
     
-    static func runChapter8() {
+    static func runChapter9() {
     }
 }

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */; };
+		118CAA8520BE95BE00F6321F /* RxHelper+Chapter9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */; };
 		11D40EAE2040475700345013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EAD2040475700345013 /* AppDelegate.swift */; };
 		11D40EB52040475700345013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB42040475700345013 /* Assets.xcassets */; };
 		11D40EB82040475700345013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB62040475700345013 /* LaunchScreen.storyboard */; };
@@ -19,13 +20,14 @@
 		11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC52040627B00345013 /* RxHelper+Models.swift */; };
 		11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */; };
 		11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */; };
-		11F54B03204EF8C400F72F31 /* RxHelper+Chapter8.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */; };
+		11F54B03204EF8C400F72F31 /* RxHelper+Chapter10.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54B02204EF8C400F72F31 /* RxHelper+Chapter10.swift */; };
 		961D50498B1D40F4A040F984 /* Pods_RxSwiftExamples.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D69DD4A9898F0CA2F495DC9F /* Pods_RxSwiftExamples.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		07697B4A8143513F8DFBE375 /* Pods-RxSwiftExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter7.swift"; sourceTree = "<group>"; };
+		118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter9.swift"; sourceTree = "<group>"; };
 		11D40EAA2040475700345013 /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D40EAD2040475700345013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D40EB42040475700345013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -40,7 +42,7 @@
 		11D40ECC204063B500345013 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter6.swift"; sourceTree = "<group>"; };
 		11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+NoChapter.swift"; sourceTree = "<group>"; };
-		11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter8.swift"; sourceTree = "<group>"; };
+		11F54B02204EF8C400F72F31 /* RxHelper+Chapter10.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter10.swift"; sourceTree = "<group>"; };
 		8CB70A27AD8B26F37B963E05 /* Pods-RxSwiftExamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.release.xcconfig"; sourceTree = "<group>"; };
 		D69DD4A9898F0CA2F495DC9F /* Pods_RxSwiftExamples.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwiftExamples.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -107,7 +109,8 @@
 				11D40EC22040627B00345013 /* RxHelper+Chapter5.swift */,
 				11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */,
 				1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */,
-				11F54B02204EF8C400F72F31 /* RxHelper+Chapter8.swift */,
+				118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */,
+				11F54B02204EF8C400F72F31 /* RxHelper+Chapter10.swift */,
 				11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */,
 			);
 			path = RxHelper;
@@ -134,7 +137,6 @@
 				11D40EA72040475700345013 /* Frameworks */,
 				11D40EA82040475700345013 /* Resources */,
 				61D654410CEC8FC61FE1B1A6 /* [CP] Embed Pods Frameworks */,
-				9D722C55673A3857EE2B5594 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,7 +154,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0920;
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Oleksandr;
 				TargetAttributes = {
 					11D40EA92040475700345013 = {
@@ -230,21 +232,6 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9D722C55673A3857EE2B5594 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -252,13 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11F54B03204EF8C400F72F31 /* RxHelper+Chapter8.swift in Sources */,
+				11F54B03204EF8C400F72F31 /* RxHelper+Chapter10.swift in Sources */,
 				11D40EC92040627B00345013 /* RxHelper+Chapter2.swift in Sources */,
 				11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */,
 				11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */,
 				11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */,
 				11D40EC72040627B00345013 /* RxHelper+Utils.swift in Sources */,
 				11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */,
+				118CAA8520BE95BE00F6321F /* RxHelper+Chapter9.swift in Sources */,
 				1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */,
 				11D40EC62040627B00345013 /* RxHelper+Chapter3.swift in Sources */,
 				11D40EAE2040475700345013 /* AppDelegate.swift in Sources */,
@@ -294,6 +282,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -301,6 +290,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -351,6 +341,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -358,6 +349,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

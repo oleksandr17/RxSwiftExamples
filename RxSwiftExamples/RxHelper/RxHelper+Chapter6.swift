@@ -1,5 +1,5 @@
 //
-//  RxHelper+Chapter3.swift
+//  RxHelper+Chapter6.swift
 //  BasicApp
 //
 //  Created by Oleksandr  on 23/02/2018.

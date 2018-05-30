@@ -23,7 +23,8 @@ struct RxHelper {
         runChapter5()
         runChapter6()
         runChapter7()
-        runChapter8()
+        runChapter9()
+        runChapter10()
         runNoChapter()
     }
 }
