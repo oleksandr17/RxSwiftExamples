@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  RxSwiftExamples
-//
-//  Created by Oleksandr  on 23/02/2018.
-//  Copyright © 2018 Oleksandr. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
