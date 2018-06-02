@@ -2,11 +2,12 @@
 
 import RxSwift
 import RxCocoa
-import Photos
 
 extension RxHelper {
     
-    private static let disposeBag = DisposeBag()
+    static func runNoChapter() {
+//        example(title: "coldObservableWithSeveralObservers", action: coldObservableWithSeveralObservers)
+    }
     
     private static func randomObservable(withDetay delay: Double = 1.0) -> Observable<Int> {
         let observable = Observable<Int>.create { observer in
@@ -21,11 +22,9 @@ extension RxHelper {
         return observable
     }
     
-    static func runNoChapter() {
-        example(title: "coldObservableWithSeveralObservers", action: coldObservableWithSeveralObservers)
-    }
-    
     private static func coldObservableWithSeveralObservers() {
+        let disposeBag = DisposeBag()
+        
         let observable = randomObservable()
             .map { $0 + 1 } // just for example reasons
             .share() // make sure to emit event once for all observers
