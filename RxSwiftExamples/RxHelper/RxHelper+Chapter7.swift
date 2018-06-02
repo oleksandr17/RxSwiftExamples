@@ -2,7 +2,6 @@
 
 import RxSwift
 import RxCocoa
-import Photos
 
 extension RxHelper {
     

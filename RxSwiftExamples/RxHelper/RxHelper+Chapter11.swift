@@ -14,35 +14,7 @@ extension RxHelper {
 //        example(title: "delay", action: delay)
 //        example(title: "interval", action: interval)
 //        example(title: "timer", action: timer)
-        example(title: "timeout", action: timeout)
-    }
-    
-    private static func timerObservable(interval: TimeInterval, count: Int, queue: DispatchQueue) -> Observable<Int> {
-        return Observable.create { observer in
-            let timer = DispatchSource.makeTimerSource(queue: queue)
-            timer.scheduleRepeating(deadline: DispatchTime.now(), interval: interval)
-            
-            let cancel = Disposables.create {
-                timer.cancel()
-            }
-            
-            var next = 1
-            timer.setEventHandler {
-                if cancel.isDisposed {
-                    return
-                }
-                if next <= count {
-                    observer.on(.next(next))
-                    next += 1
-                } else {
-                    observer.onCompleted()
-                }
-                
-            }
-            timer.resume()
-            
-            return cancel
-        }
+//        example(title: "timeout", action: timeout)
     }
     
     private static func replay() {

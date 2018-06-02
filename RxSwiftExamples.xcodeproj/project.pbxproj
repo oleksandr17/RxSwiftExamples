@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */; };
 		118CAA8520BE95BE00F6321F /* RxHelper+Chapter9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */; };
+		11B9246920C2C9C20078029E /* Chapter14ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9246720C2C9C20078029E /* Chapter14ViewController.swift */; };
+		11B9246A20C2C9C20078029E /* Chapter14ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11B9246820C2C9C20078029E /* Chapter14ViewController.xib */; };
+		11B9246C20C2C9CF0078029E /* RxHelper+Chapter12.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9246B20C2C9CF0078029E /* RxHelper+Chapter12.swift */; };
+		11B9246F20C2CD670078029E /* Chapter14View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9246E20C2CD670078029E /* Chapter14View.swift */; };
 		11D40EAE2040475700345013 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EAD2040475700345013 /* AppDelegate.swift */; };
 		11D40EB52040475700345013 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB42040475700345013 /* Assets.xcassets */; };
 		11D40EB82040475700345013 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11D40EB62040475700345013 /* LaunchScreen.storyboard */; };
@@ -17,7 +21,7 @@
 		11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC22040627B00345013 /* RxHelper+Chapter5.swift */; };
 		11D40EC92040627B00345013 /* RxHelper+Chapter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC32040627B00345013 /* RxHelper+Chapter2.swift */; };
 		11D40ECA2040627B00345013 /* RxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC42040627B00345013 /* RxHelper.swift */; };
-		11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC52040627B00345013 /* RxHelper+Models.swift */; };
+		11D40ECB2040627B00345013 /* RxHelper+Erros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC52040627B00345013 /* RxHelper+Erros.swift */; };
 		11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */; };
 		11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */; };
 		11F54B03204EF8C400F72F31 /* RxHelper+Chapter11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54B02204EF8C400F72F31 /* RxHelper+Chapter11.swift */; };
@@ -28,6 +32,10 @@
 		07697B4A8143513F8DFBE375 /* Pods-RxSwiftExamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwiftExamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwiftExamples/Pods-RxSwiftExamples.debug.xcconfig"; sourceTree = "<group>"; };
 		1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter7.swift"; sourceTree = "<group>"; };
 		118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter9.swift"; sourceTree = "<group>"; };
+		11B9246720C2C9C20078029E /* Chapter14ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter14ViewController.swift; sourceTree = "<group>"; };
+		11B9246820C2C9C20078029E /* Chapter14ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Chapter14ViewController.xib; sourceTree = "<group>"; };
+		11B9246B20C2C9CF0078029E /* RxHelper+Chapter12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter12.swift"; sourceTree = "<group>"; };
+		11B9246E20C2CD670078029E /* Chapter14View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter14View.swift; sourceTree = "<group>"; };
 		11D40EAA2040475700345013 /* RxSwiftExamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxSwiftExamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11D40EAD2040475700345013 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		11D40EB42040475700345013 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,7 +46,7 @@
 		11D40EC22040627B00345013 /* RxHelper+Chapter5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter5.swift"; sourceTree = "<group>"; };
 		11D40EC32040627B00345013 /* RxHelper+Chapter2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter2.swift"; sourceTree = "<group>"; };
 		11D40EC42040627B00345013 /* RxHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RxHelper.swift; sourceTree = "<group>"; };
-		11D40EC52040627B00345013 /* RxHelper+Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Models.swift"; sourceTree = "<group>"; };
+		11D40EC52040627B00345013 /* RxHelper+Erros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Erros.swift"; sourceTree = "<group>"; };
 		11D40ECC204063B500345013 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter6.swift"; sourceTree = "<group>"; };
 		11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+NoChapter.swift"; sourceTree = "<group>"; };
@@ -65,6 +73,33 @@
 				D69DD4A9898F0CA2F495DC9F /* Pods_RxSwiftExamples.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		11B9246620C2C98A0078029E /* Chapter12 */ = {
+			isa = PBXGroup;
+			children = (
+				11B9246D20C2C9DB0078029E /* ViewController */,
+				11B9246B20C2C9CF0078029E /* RxHelper+Chapter12.swift */,
+			);
+			path = Chapter12;
+			sourceTree = "<group>";
+		};
+		11B9246D20C2C9DB0078029E /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				11B9247020C2CD7B0078029E /* View */,
+				11B9246720C2C9C20078029E /* Chapter14ViewController.swift */,
+				11B9246820C2C9C20078029E /* Chapter14ViewController.xib */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		11B9247020C2CD7B0078029E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B9246E20C2CD670078029E /* Chapter14View.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		11D40EA12040475700345013 = {
@@ -102,7 +137,7 @@
 			isa = PBXGroup;
 			children = (
 				11D40EC42040627B00345013 /* RxHelper.swift */,
-				11D40EC52040627B00345013 /* RxHelper+Models.swift */,
+				11D40EC52040627B00345013 /* RxHelper+Erros.swift */,
 				11D40EC12040627B00345013 /* RxHelper+Utils.swift */,
 				11D40EC32040627B00345013 /* RxHelper+Chapter2.swift */,
 				11D40EC02040627B00345013 /* RxHelper+Chapter3.swift */,
@@ -111,6 +146,7 @@
 				1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */,
 				118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */,
 				11F54B02204EF8C400F72F31 /* RxHelper+Chapter11.swift */,
+				11B9246620C2C98A0078029E /* Chapter12 */,
 				11D8FFB82059988E00C52550 /* RxHelper+NoChapter.swift */,
 			);
 			path = RxHelper;
@@ -186,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11B9246A20C2C9C20078029E /* Chapter14ViewController.xib in Resources */,
 				11D40EB82040475700345013 /* LaunchScreen.storyboard in Resources */,
 				11D40EB52040475700345013 /* Assets.xcassets in Resources */,
 			);
@@ -242,13 +279,16 @@
 				11F54B03204EF8C400F72F31 /* RxHelper+Chapter11.swift in Sources */,
 				11D40EC92040627B00345013 /* RxHelper+Chapter2.swift in Sources */,
 				11D8FFB92059988E00C52550 /* RxHelper+NoChapter.swift in Sources */,
-				11D40ECB2040627B00345013 /* RxHelper+Models.swift in Sources */,
+				11D40ECB2040627B00345013 /* RxHelper+Erros.swift in Sources */,
 				11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */,
 				11D40EC72040627B00345013 /* RxHelper+Utils.swift in Sources */,
 				11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */,
 				118CAA8520BE95BE00F6321F /* RxHelper+Chapter9.swift in Sources */,
+				11B9246C20C2C9CF0078029E /* RxHelper+Chapter12.swift in Sources */,
 				1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */,
+				11B9246F20C2CD670078029E /* Chapter14View.swift in Sources */,
 				11D40EC62040627B00345013 /* RxHelper+Chapter3.swift in Sources */,
+				11B9246920C2C9C20078029E /* Chapter14ViewController.swift in Sources */,
 				11D40EAE2040475700345013 /* AppDelegate.swift in Sources */,
 				11D40ECA2040627B00345013 /* RxHelper.swift in Sources */,
 			);

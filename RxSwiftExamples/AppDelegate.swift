@@ -8,7 +8,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        RxHelper.run()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        RxHelper.run(window: window!)
+        window?.makeKeyAndVisible()
         return true
     }
 }
