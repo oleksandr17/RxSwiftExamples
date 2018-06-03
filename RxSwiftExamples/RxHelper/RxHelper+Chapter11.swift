@@ -8,6 +8,8 @@ extension RxHelper {
     static func runChapter11() {
 //        example(title: "replay", action: replay)
 //        example(title: "replayAll", action: replayAll)
+//        example(title: "share", action: share)
+//        example(title: "shareReplay", action: shareReplay)
 //        example(title: "buffer", action: buffer)
 //        example(title: "window", action: window)
 //        example(title: "delaySubscription", action: delaySubscription)
@@ -44,6 +46,37 @@ extension RxHelper {
             _ = sourceObservable
                 .subscribe { (event) in
                     print(event)
+            }
+        }
+    }
+    
+    private static func share() {
+        let observable = randomIntObservable(withDetay: 1.0)
+            .map { $0 + 1 } // just for example reasons
+            .share() // make sure to emit event once for all observers
+        
+        _ = observable.subscribe { event in
+            print("1) \(event)")
+        }
+        
+        _ = observable.subscribe { event in
+            print("2) \(event)")
+        }
+    }
+    
+    private static func shareReplay() {
+        let observable = timerObservable(interval: 1, count: 5, queue: .main)
+            .share(replay: 1, scope: .whileConnected)
+        
+        _ = observable
+            .subscribe { event in
+                print("1) \(event)")
+        }
+        
+        DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+            _ = observable
+                .subscribe { event in
+                    print("2) \(event)")
             }
         }
     }

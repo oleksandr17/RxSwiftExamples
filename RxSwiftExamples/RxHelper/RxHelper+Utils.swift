@@ -16,7 +16,7 @@ extension RxHelper {
         print("RxSwift.Resources.total = \(RxSwift.Resources.total)")
     }
     
-    static func randomIntObservable(withDetay delay: Double = 1.0) -> Observable<Int> {
+    static func randomIntObservable(withDetay delay: Double) -> Observable<Int> {
         let observable = Observable<Int>.create { observer in
             let deadlineTime = DispatchTime.now() + delay
             DispatchQueue.main.asyncAfter(deadline: deadlineTime) {
