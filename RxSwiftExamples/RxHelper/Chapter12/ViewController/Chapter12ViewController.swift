@@ -4,12 +4,12 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-class Chapter14ViewController: UIViewController {
+class Chapter12ViewController: UIViewController {
     
     let bag = DisposeBag()
     
-    private var _view: Chapter14View {
-        return view as! Chapter14View
+    private var _view: Chapter12View {
+        return view as! Chapter12View
     }
     
     // MARK: - View 

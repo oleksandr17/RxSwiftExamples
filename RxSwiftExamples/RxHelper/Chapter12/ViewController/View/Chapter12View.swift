@@ -2,7 +2,7 @@
 
 import UIKit
 
-class Chapter14View: UIView {
+class Chapter12View: UIView {
 
     @IBOutlet weak var label: UILabel!
     @IBOutlet weak var textField: UITextField!
