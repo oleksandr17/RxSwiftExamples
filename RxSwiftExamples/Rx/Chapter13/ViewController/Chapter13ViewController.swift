@@ -1,11 +1,13 @@
 //
 
 import UIKit
+import CoreLocation
 import RxSwift
 import RxCocoa
 
 class Chapter13ViewController: UIViewController {
-
+    
+    let locationManager = CLLocationManager()
     let bag = DisposeBag()
     
     private var _view: Chapter13View {
@@ -16,4 +18,17 @@ class Chapter13ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        _view.locationButton.rx.tap
+            .subscribe { [weak self] (event) in
+                self?.locationManager.requestWhenInUseAuthorization()
+                self?.locationManager.startUpdatingLocation()
+            }
+            .disposed(by: bag)
+        
+        locationManager.rx.didUpdateLocations
+            .subscribe { (event) in
+                print("Location: \(event)")
+            }
+            .disposed(by: bag)
     }}
