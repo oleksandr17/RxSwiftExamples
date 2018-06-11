@@ -12,6 +12,7 @@
 		114D25FE20C65E0C0085A050 /* Chapter13ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 114D25FC20C65E0C0085A050 /* Chapter13ViewController.xib */; };
 		114D260120C660700085A050 /* CLLocationManager+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D260020C660700085A050 /* CLLocationManager+Rx.swift */; };
 		114D262220C722190085A050 /* RxHelper+Chapter13.swift in Sources */ = {isa = PBXBuildFile; fileRef = 114D262120C722190085A050 /* RxHelper+Chapter13.swift */; };
+		11503F4B20CE4A8300A5462B /* UILabel+Rx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11503F4A20CE4A8300A5462B /* UILabel+Rx.swift */; };
 		1161A09B204DA52400E31F00 /* RxHelper+Chapter7.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */; };
 		118CAA8520BE95BE00F6321F /* RxHelper+Chapter9.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */; };
 		11B9246920C2C9C20078029E /* Chapter12ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B9246720C2C9C20078029E /* Chapter12ViewController.swift */; };
@@ -40,6 +41,7 @@
 		114D25FC20C65E0C0085A050 /* Chapter13ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Chapter13ViewController.xib; sourceTree = "<group>"; };
 		114D260020C660700085A050 /* CLLocationManager+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationManager+Rx.swift"; sourceTree = "<group>"; };
 		114D262120C722190085A050 /* RxHelper+Chapter13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter13.swift"; sourceTree = "<group>"; };
+		11503F4A20CE4A8300A5462B /* UILabel+Rx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Rx.swift"; sourceTree = "<group>"; };
 		1161A09A204DA52400E31F00 /* RxHelper+Chapter7.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter7.swift"; sourceTree = "<group>"; };
 		118CAA8420BE95BE00F6321F /* RxHelper+Chapter9.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter9.swift"; sourceTree = "<group>"; };
 		11B9246720C2C9C20078029E /* Chapter12ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter12ViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				114D260020C660700085A050 /* CLLocationManager+Rx.swift */,
+				11503F4A20CE4A8300A5462B /* UILabel+Rx.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -326,6 +329,7 @@
 			files = (
 				11F54B03204EF8C400F72F31 /* RxHelper+Chapter11.swift in Sources */,
 				11D40EC92040627B00345013 /* RxHelper+Chapter2.swift in Sources */,
+				11503F4B20CE4A8300A5462B /* UILabel+Rx.swift in Sources */,
 				114D25FD20C65E0C0085A050 /* Chapter13ViewController.swift in Sources */,
 				11D8FFB92059988E00C52550 /* RxHelper+Misc.swift in Sources */,
 				11D40ECB2040627B00345013 /* RxHelper+Erros.swift in Sources */,

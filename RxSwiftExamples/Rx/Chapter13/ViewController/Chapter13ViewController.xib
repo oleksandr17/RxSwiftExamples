@@ -23,15 +23,31 @@
                     <rect key="frame" x="20" y="40" width="335" height="30"/>
                     <state key="normal" title="Loction"/>
                 </button>
+                <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="aYl-F9-6Eo">
+                    <rect key="frame" x="177.5" y="90" width="20" height="20"/>
+                </activityIndicatorView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0TS-oh-lD6">
+                    <rect key="frame" x="20" y="130" width="335" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
+                <constraint firstItem="0TS-oh-lD6" firstAttribute="top" secondItem="aYl-F9-6Eo" secondAttribute="bottom" constant="20" id="CPb-tA-mpp"/>
+                <constraint firstItem="aYl-F9-6Eo" firstAttribute="centerX" secondItem="fnl-2z-Ty3" secondAttribute="centerX" id="HFC-fH-2TJ"/>
+                <constraint firstItem="0TS-oh-lD6" firstAttribute="trailing" secondItem="2au-FN-Pll" secondAttribute="trailing" id="TTW-DG-2Yy"/>
                 <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="2au-FN-Pll" secondAttribute="trailing" constant="20" id="dST-dO-mgL"/>
                 <constraint firstItem="2au-FN-Pll" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="20" id="dYv-Ag-JrS"/>
                 <constraint firstItem="2au-FN-Pll" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="gUY-r1-ZQL"/>
+                <constraint firstItem="0TS-oh-lD6" firstAttribute="leading" secondItem="2au-FN-Pll" secondAttribute="leading" id="n6a-8t-B9D"/>
+                <constraint firstItem="aYl-F9-6Eo" firstAttribute="top" secondItem="2au-FN-Pll" secondAttribute="bottom" constant="20" id="yrR-cj-zF4"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <connections>
+                <outlet property="activityIndicator" destination="aYl-F9-6Eo" id="xrc-z9-RmU"/>
+                <outlet property="label" destination="0TS-oh-lD6" id="oro-2D-YdY"/>
                 <outlet property="locationButton" destination="2au-FN-Pll" id="RmF-64-QmX"/>
             </connections>
         </view>
