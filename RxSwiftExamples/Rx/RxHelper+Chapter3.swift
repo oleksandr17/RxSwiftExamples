@@ -33,7 +33,7 @@ extension RxHelper {
             .disposed(by: disposeBag)
         subject.onNext("3")
         subject.onCompleted()
-        subject.onError(RxError.defaultError) // won't be sent
+        subject.onError(RxError.emptyError) // won't be sent
         
         subject
             .subscribe { event in

@@ -19,7 +19,7 @@ extension RxHelper {
             observer.onNext(2)
             observer.onNext(3)
 //            observer.onCompleted()
-            observer.onError(RxError.defaultError)
+            observer.onError(RxError.emptyError)
             return Disposables.create()
             }
             .ignoreElements()

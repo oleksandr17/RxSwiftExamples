@@ -52,7 +52,7 @@ extension RxHelper {
 //        subject.onCompleted()
         subject.onNext("2")
         subject.onNext("3")
-        subject.onError(RxError.defaultError) // no impact
+        subject.onError(RxError.emptyError) // no impact
     }
     
     private static func skip() {

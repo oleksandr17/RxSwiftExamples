@@ -96,7 +96,7 @@ extension RxHelper {
         second.onNext("2) H")
         first.onCompleted()
         second.onCompleted()
-        second.onError(RxError.defaultError)
+        second.onError(RxError.emptyError)
     }
     
     private static func combineLatest() {
@@ -123,7 +123,7 @@ extension RxHelper {
         second.onNext("2) H")
         first.onCompleted()
         second.onCompleted()
-        second.onError(RxError.defaultError)
+        second.onError(RxError.emptyError)
         
         //
         let bools = Observable<Bool>.of(true, false)
@@ -166,7 +166,7 @@ extension RxHelper {
         second.onNext("2) H")
         first.onCompleted()
         second.onCompleted()
-        second.onError(RxError.defaultError)
+        second.onError(RxError.emptyError)
     }
     
     private static func withLatestFrom() {

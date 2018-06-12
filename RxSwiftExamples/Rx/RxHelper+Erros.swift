@@ -5,6 +5,7 @@ import Foundation
 extension RxHelper {
     
     enum RxError: Error {
-        case defaultError
+        case emptyError
+        case stringError(value: String)
     }
 }

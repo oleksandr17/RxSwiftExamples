@@ -7,23 +7,7 @@ import Photos
 extension RxHelper {
     
     static func runMisc() {
-//        example(title: "catchErrorJustReturn", action: catchErrorJustReturn)
 //        example(title: "photosAuthorised", action: photosAuthorised)
-    }
-    
-    private static func catchErrorJustReturn() {
-        let disposeBag = DisposeBag()
-        
-        let subject = PublishSubject<String>()
-        subject
-            .catchErrorJustReturn("supress error")
-            .subscribe { event in
-                print(event)
-            }
-            .disposed(by: disposeBag)
-        
-        subject.onNext("next")
-        subject.onError(RxError.defaultError)
     }
     
     private static func photosAuthorised() {

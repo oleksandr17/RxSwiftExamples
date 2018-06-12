@@ -70,7 +70,7 @@ extension RxHelper {
         
         let observable = Observable<String>.create { observer in
             observer.onNext("1")
-            observer.onError(RxError.defaultError)
+            observer.onError(RxError.emptyError)
             observer.onCompleted()
             observer.onNext("?")
             return Disposables.create()
