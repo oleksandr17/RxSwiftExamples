@@ -7,7 +7,35 @@ import Photos
 extension RxHelper {
     
     static func runMisc() {
+        example(title: "asSingle", action: asSingle)
 //        example(title: "photosAuthorised", action: photosAuthorised)
+    }
+    
+    private static func asSingle() {
+        let disposeBag = DisposeBag()
+        
+        let subject = PublishSubject<Int>()
+        subject.onNext(0)
+        
+        let single = subject.asSingle()
+        single
+            .subscribe { event in
+                print("1) \(event)")
+            }
+            .disposed(by: disposeBag)
+        
+        subject.onNext(1)
+        subject.onNext(2)
+        
+        single
+            .subscribe { event in
+                print("2) \(event)")
+            }
+            .disposed(by: disposeBag)
+        
+        subject.onNext(3)
+        
+        subject.onCompleted()
     }
     
     private static func photosAuthorised() {

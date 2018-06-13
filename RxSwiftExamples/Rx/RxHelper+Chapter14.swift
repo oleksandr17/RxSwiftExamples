@@ -48,9 +48,6 @@ extension RxHelper {
         subject.onError(RxError.stringError(value: "hello"))
     }
     
-    /**
-     Important: this example is incomplete - it needs more time for research.
-     */
     private static func retry() {
         var sendError = true
         let observable = Observable<Int>.create { observer in
@@ -90,6 +87,6 @@ extension RxHelper {
             })
             .subscribe { event in
                 print("\(event)")
-        }
+            }
     }
 }

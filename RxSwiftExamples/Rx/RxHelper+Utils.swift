@@ -16,6 +16,10 @@ extension RxHelper {
         print("RxSwift.Resources.total = \(RxSwift.Resources.total)")
     }
     
+    static func logThread() {
+        print("MT: \(Thread.current.isMainThread)")
+    }
+    
     static func randomIntObservable(withDetay delay: Double) -> Observable<Int> {
         let observable = Observable<Int>.create { observer in
             let deadlineTime = DispatchTime.now() + delay
