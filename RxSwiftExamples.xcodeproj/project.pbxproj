@@ -30,6 +30,7 @@
 		11D40ECA2040627B00345013 /* RxHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC42040627B00345013 /* RxHelper.swift */; };
 		11D40ECB2040627B00345013 /* RxHelper+Erros.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40EC52040627B00345013 /* RxHelper+Erros.swift */; };
 		11D40ECF2041AEE700345013 /* RxHelper+Chapter6.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */; };
+		11D4350C20D2409F007306F0 /* RxHelper+Chapter16.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D4350B20D2409F007306F0 /* RxHelper+Chapter16.swift */; };
 		11D8FFB92059988E00C52550 /* RxHelper+Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11D8FFB82059988E00C52550 /* RxHelper+Misc.swift */; };
 		11E21CE920CF92C5001E6822 /* RxHelper+Chapter14.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E21CE820CF92C5001E6822 /* RxHelper+Chapter14.swift */; };
 		11F54B03204EF8C400F72F31 /* RxHelper+Chapter11.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11F54B02204EF8C400F72F31 /* RxHelper+Chapter11.swift */; };
@@ -64,6 +65,7 @@
 		11D40EC52040627B00345013 /* RxHelper+Erros.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Erros.swift"; sourceTree = "<group>"; };
 		11D40ECC204063B500345013 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		11D40ECE2041AEE700345013 /* RxHelper+Chapter6.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter6.swift"; sourceTree = "<group>"; };
+		11D4350B20D2409F007306F0 /* RxHelper+Chapter16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter16.swift"; sourceTree = "<group>"; };
 		11D8FFB82059988E00C52550 /* RxHelper+Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Misc.swift"; sourceTree = "<group>"; };
 		11E21CE820CF92C5001E6822 /* RxHelper+Chapter14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter14.swift"; sourceTree = "<group>"; };
 		11F54B02204EF8C400F72F31 /* RxHelper+Chapter11.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RxHelper+Chapter11.swift"; sourceTree = "<group>"; };
@@ -204,6 +206,7 @@
 				114D25F620C65DD80085A050 /* Chapter13 */,
 				11E21CE820CF92C5001E6822 /* RxHelper+Chapter14.swift */,
 				1197813C20D0E88700EEC3D1 /* RxHelper+Chapter15.swift */,
+				11D4350B20D2409F007306F0 /* RxHelper+Chapter16.swift */,
 			);
 			path = Rx;
 			sourceTree = "<group>";
@@ -339,6 +342,7 @@
 				114D25FD20C65E0C0085A050 /* Chapter13ViewController.swift in Sources */,
 				11D8FFB92059988E00C52550 /* RxHelper+Misc.swift in Sources */,
 				11D40ECB2040627B00345013 /* RxHelper+Erros.swift in Sources */,
+				11D4350C20D2409F007306F0 /* RxHelper+Chapter16.swift in Sources */,
 				114D25FA20C65DFA0085A050 /* Chapter13View.swift in Sources */,
 				11D40EC82040627B00345013 /* RxHelper+Chapter5.swift in Sources */,
 				11D40EC72040627B00345013 /* RxHelper+Utils.swift in Sources */,

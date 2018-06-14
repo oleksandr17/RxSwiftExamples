@@ -52,12 +52,15 @@ extension RxHelper {
                 print("1) \(event)")
             }
             .disposed(by: disposeBag)
+        
         subject.onNext("1")
+        
         subject
             .subscribe { event in
                 print("2) \(event)")
             }
             .disposed(by: disposeBag)
+        
         subject.onNext("2")
     }
     
@@ -67,13 +70,15 @@ extension RxHelper {
         
         subject.onNext("1")
         subject.onNext("2")
-        subject.onNext("3")
         
         subject
             .subscribe { event in
                 print("1) \(event)")
             }
             .disposed(by: disposeBag)
+        
+        subject.onNext("3")
+        
         subject
             .subscribe { event in
                 print("2) \(event)")

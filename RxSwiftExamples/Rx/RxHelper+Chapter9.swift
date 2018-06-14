@@ -81,8 +81,9 @@ extension RxHelper {
         let source = Observable.of(first.asObservable(), second.asObservable())
         let observable = source.merge()
         
-        observable.subscribe { (event) in
-            print(event)
+        observable
+            .subscribe { (event) in
+                print(event)
             }
             .disposed(by: disposeBag)
         
