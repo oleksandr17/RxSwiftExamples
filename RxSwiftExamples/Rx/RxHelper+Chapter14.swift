@@ -87,6 +87,6 @@ extension RxHelper {
             })
             .subscribe { event in
                 print("\(event)")
-            }
+        }
     }
 }

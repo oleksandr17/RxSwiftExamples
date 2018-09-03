@@ -8,8 +8,8 @@ extension RxHelper {
     private static let globalScheduler = ConcurrentDispatchQueueScheduler(queue: DispatchQueue.global())
     
     static func runChapter15() {
-//        example(title: "subscribeOn", action: subscribeOn)
-        example(title: "observeOn", action: observeOn)
+        example(title: "subscribeOn", action: subscribeOn)
+//        example(title: "observeOn", action: observeOn)
     }
     
     private static func subscribeOn() {

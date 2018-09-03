@@ -12,7 +12,7 @@ struct RxHelper {
     // MARK: - Run
     
     static func run(window: UIWindow) {
-//        runChapter2()
+        runChapter2()
 //        runChapter3()
 //        runChapter5()
 //        runChapter6()
@@ -23,7 +23,7 @@ struct RxHelper {
 //        runChapter13(window: window)
 //        runChapter14()
 //        runChapter15()
-        runChapter16()
+//        runChapter16()
 //        runMisc()
     }
 }

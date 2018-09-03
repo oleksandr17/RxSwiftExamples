@@ -27,6 +27,7 @@ extension RxHelper {
         subject.onNext(1)
         subject.onNext(2)
         
+        //
         single
             .subscribe { event in
                 print("2) \(event)")

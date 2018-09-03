@@ -44,17 +44,10 @@ extension RxHelper {
             })
             .disposed(by: disposeBag)
         
-        //
         let observable2 = first.concat(second)
         observable2
             .subscribe(onNext: { (value) in
-                print("2.1) \(value)")
-            })
-            .disposed(by: disposeBag)
-        
-        observable2
-            .subscribe(onNext: { (value) in
-                print("2.2) \(value)")
+                print("2) \(value)")
             })
             .disposed(by: disposeBag)
     }
@@ -64,8 +57,7 @@ extension RxHelper {
         let disposeBag = DisposeBag()
         
         let numbers = Observable.of(1, 2, 3)
-        Observable
-            .just(0)
+        Observable.just(0)
             .concat(numbers)
             .subscribe(onNext: { (value) in
                 print(value)
@@ -87,14 +79,14 @@ extension RxHelper {
             }
             .disposed(by: disposeBag)
         
-        first.onNext("1) A")
-        first.onNext("1) B")
-        first.onNext("1) C")
-        second.onNext("2) D")
-        second.onNext("2) E")
-        second.onNext("2) F")
-        first.onNext("1) G")
-        second.onNext("2) H")
+        first.onNext("1A")
+        first.onNext("1B")
+        first.onNext("1C")
+        second.onNext("2D")
+        second.onNext("2E")
+        second.onNext("2F")
+        first.onNext("1G")
+        second.onNext("2H")
         first.onCompleted()
         second.onCompleted()
         second.onError(RxError.emptyError)
@@ -114,14 +106,14 @@ extension RxHelper {
             }
             .disposed(by: disposeBag)
         
-        first.onNext("1) A")
-        first.onNext("1) B")
-        first.onNext("1) C")
-        second.onNext("2) D")
-        second.onNext("2) E")
-        second.onNext("2) F")
-        first.onNext("1) G")
-        second.onNext("2) H")
+        first.onNext("1A")
+        first.onNext("1B")
+        first.onNext("1C")
+        second.onNext("2D")
+        second.onNext("2E")
+        second.onNext("2F")
+        first.onNext("1G")
+        second.onNext("2H")
         first.onCompleted()
         second.onCompleted()
         second.onError(RxError.emptyError)
@@ -157,14 +149,14 @@ extension RxHelper {
             }
             .disposed(by: disposeBag)
         
-        first.onNext("1) A")
-        first.onNext("1) B")
-        first.onNext("1) C")
-        second.onNext("2) D")
-        second.onNext("2) E")
-        second.onNext("2) F")
-        first.onNext("1) G")
-        second.onNext("2) H")
+        first.onNext("1A")
+        first.onNext("1B")
+        first.onNext("1C")
+        second.onNext("2D")
+        second.onNext("2E")
+        second.onNext("2F")
+        first.onNext("1G")
+        second.onNext("2H")
         first.onCompleted()
         second.onCompleted()
         second.onError(RxError.emptyError)
